@@ -14,6 +14,3 @@ var rdsPool = mysql.createPool({
 
 module.exports.pool = rdsPool;
 module.exports.url = rdsUrl;
-
-
-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
