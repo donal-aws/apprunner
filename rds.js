@@ -1,9 +1,8 @@
 var mysql = require('mysql');
 
-
-var rdsUrl = 'replace with endpoint to the RDS';
-var password =  'replace with password to the RDS';
-var user = 'replace with user to the RDS';
+var rdsUrl = 'hotel-app-database-instance-1.cwb9axnavdzs.eu-west-1.rds.amazonaws.com';
+var password =  'Password';
+var user = 'admin';
 
 // mysql connection pool
 var rdsPool = mysql.createPool({
@@ -15,3 +14,6 @@ var rdsPool = mysql.createPool({
 
 module.exports.pool = rdsPool;
 module.exports.url = rdsUrl;
+
+
+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
